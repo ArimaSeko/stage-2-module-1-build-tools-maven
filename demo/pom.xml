@@ -11,12 +11,12 @@
 
     <artifactId>demo</artifactId>
     <dependencies>
-        <!-- something should be here-->
         <dependency>
-            <groupId>com.epam</groupId>
-            <artifactId>utils</artifactId>
-            <version>1.3.5</version>
+            <groupId>com.epam</groupId> <!-- groupId of 'utils' module -->
+            <artifactId>utils</artifactId> <!-- artifactId of 'utils' module -->
+            <version>1.3.5</version> <!-- version of 'utils' module -->
         </dependency>
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-params</artifactId>
